@@ -44,11 +44,11 @@ export class AppComponent implements OnInit {
     } else if (this.totalPerguntas > 20) {
       this.qtds.push('20')
     } else if (this.totalPerguntas > 30) {
-      this.qtds.push('20')
+      this.qtds.push('30')
     } else if (this.totalPerguntas > 40) {
-      this.qtds.push('20')
+      this.qtds.push('40')
     } else if (this.totalPerguntas > 50) {
-      this.qtds.push('20')
+      this.qtds.push('50')
     }
     this.qtds.push(this.totalPerguntas.toString())
   }
