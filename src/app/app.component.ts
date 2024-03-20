@@ -39,17 +39,17 @@ export class AppComponent implements OnInit {
   }
   prepareComboQtdPerguntas() {
     this.qtds = []
-    if (this.totalPerguntas > 10) {
+    if (this.totalPerguntas > 10)
       this.qtds.push('10')
-    } else if (this.totalPerguntas > 20) {
+    if (this.totalPerguntas > 20)
       this.qtds.push('20')
-    } else if (this.totalPerguntas > 30) {
+    if (this.totalPerguntas > 30)
       this.qtds.push('30')
-    } else if (this.totalPerguntas > 40) {
+    if (this.totalPerguntas > 40)
       this.qtds.push('40')
-    } else if (this.totalPerguntas > 50) {
+    if (this.totalPerguntas > 50)
       this.qtds.push('50')
-    }
+
     this.qtds.push(this.totalPerguntas.toString())
   }
 
@@ -60,6 +60,7 @@ export class AppComponent implements OnInit {
   public listaPerguntas(qtd?: any) {
     this.getJSON().subscribe(data => {
       this.totalPerguntas = data.length;
+      console.log("Total de Perguntas: ", this.totalPerguntas);
       if (qtd == 'All' || qtd === undefined) {
         this.quantidadePerguntas = this.totalPerguntas;
       } else {
