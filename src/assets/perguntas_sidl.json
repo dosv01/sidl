@@ -1,0 +1,547 @@
+[
+  {
+    "id": 0,
+    "pergunta": "Accenture is required to deliver productivity improvements as part of a client's process automation contract. Which is the first step to identify automation opportunities?",
+    "respostas": [
+      "Standardize the delivery life-cycle.",
+      "Analyze effort distribution to identify highly defined manual repetitive activities.",
+      "Measure automation maturity.",
+      "Leverage historical experience and data."
+    ],
+    "correta": "b",
+    "resposta": ""
+  },
+  {
+    "id": 1,
+    "pergunta": "An Accenture technology Delivery Lead (DL) plans to implement OPERA productivity improvement levers as part of a contract to boost productivity of client's software development unit. Which key scope selection considerations should the DL study? (Choose two.)",
+    "respostas": [
+      "processes that are independent of client approval",
+      "processes that are deemed tougher to update",
+      "processes that use margin friendly resources",
+      "processes in which the team spends most of their effort"
+    ],
+    "correta": "b,c",
+    "resposta": ""
+  },
+  {
+    "id": 2,
+    "pergunta": "Match each OPERA Lever to its description.",
+    "respostas": [
+      "Lean Six Sigma - used to analyze current per",
+      "DevOps - used to optimize and autor",
+      "Testing Automation - used to optimize testing pr",
+      "MyWizard - intelligent platform that pri"
+    ],
+    "correta": "",
+    "resposta": ""
+  },
+  {
+    "id": 3,
+    "pergunta": "Use the scenario below to answer the following questions: The Delivery Lead identifies a new sales opportunity with the client. She decides to use the unused solution contingency (SC) from the current contract effort to pay for the new business development (BD) work instead of writing it up to CI at the end of the month. Do you agree with her decision? (Risk,Solution_Contingency.pdf – pag.11)",
+    "respostas": [
+      "Yes. Funding BD work is an acceptable use for unused SC because the revenue potential of new work likely exceeds the BD investment.",
+      "No. SC that is no longer needed must be written up to CI or transferred to cover other identified risks in the contract.",
+      "Yes. SC is available for use for any unplanned expense in Delivery and it’s use is entirely up to the discretion of the Delivery Lead",
+      "No. BD must be paid for by a separate BD budget.",
+      "B and D"
+    ],
+    "correta": "e",
+    "resposta": ""
+  },
+  {
+    "id": 4,
+    "pergunta": "The Delivery Lead should expect to receive the following from the Opportunity Team: (Risk,Solution_Contingency.pdf – pag.13)",
+    "respostas": [
+      "A high quality risk assessment",
+      "For each High/Above Normal risk, a mitigation plan with ownership (by named individuals)",
+      "Solution Contingency assigned for risks that cannot be mitigated prior to contracting",
+      "All of the above",
+      "None of the above"
+    ],
+    "correta": "d",
+    "resposta": ""
+  },
+  {
+    "id": 5,
+    "pergunta": "Which best practices should a Delivery Lead (DL) implement to deal with a client who exhibits the below personality traits? (Choose two.) • demonstrates understanding • is compliant with what is asked • recognizes and mitigates risks • is transparent • is method and process-oriented • is rigorous and accurate • is demonstrative",
+    "respostas": [
+      "focus on data instead of facts and figures",
+      "make high-level claims during interactions",
+      "be prepared to answer questions on the 'how'",
+      "recognize and acknowledge the need to be accurate and logical"
+    ],
+    "correta": "c,d",
+    "resposta": ""
+  },
+  {
+    "id": 6,
+    "pergunta": "The tasks below are executed as part of the Accenture Client Data Protection (CDP) program. 1. Take executive accountability of the operational effectiveness of the CDP plan. 2. Maintain an effective CDP plan and coordinate CDP related activities. 3. Complete CDP risk assessment and review CDP guidance note 4. Work with the Account Information Security Lead to add new contracts and identify scope of services. Which of the above mentioned task is the accountability of a Delivery Lead (DL)?",
+    "respostas": [
+      "4",
+      "1",
+      "3",
+      "2"
+    ],
+    "correta": "b",
+    "resposta": ""
+  },
+  {
+    "id": 7,
+    "pergunta": "Which actions should a Delivery Lead (DL) perform when a client approaches with customized security requirements?",
+    "respostas": [
+      "Rely on legal to review any contractual security exhibits.",
+      "Deactivate the contract instead of moving it to the Delivery phase.",
+      "Ensure the solution team understands client information security requirements and has accounted for them in the solution.",
+      "Request the Client Data Protection (CDP) Opportunity Support team to review client requirements and compare them with Accenture standards."
+    ],
+    "correta": "c",
+    "resposta": ""
+  },
+  {
+    "id": 8,
+    "pergunta": "Which key controls should a Delivery Lead (DL) ensure in the plan and execute phase to comply with application development requirements? 1. Maintain application inventory that complies with the general and language specific Client Data Protection (CDP) checklists. 2. Reduce implementation timeline risks and potential security vulnerabilities before an application is moved to production. 3. Request Application Assessment team to perform application security scan for client facing teams well in advance of moving code to production. 4. Understand how engagement financials are inline within the clients' budget or business case to manage the delivery budget.",
+    "respostas": [
+      "2,3,4",
+      "1,2,3",
+      "1,2,4",
+      "1, 2, 3,4"
+    ],
+    "correta": "a",
+    "resposta": ""
+  },
+  {
+    "id": 9,
+    "pergunta": "Which primary consideration should a Delivery Lead (DL) consider when approving an OPERA initiative?",
+    "respostas": [
+      "deployment of commitment declaration",
+      "planning and implementation on multiple project",
+      "estimation and evaluation of the Return on Investment (ROI)",
+      "identification and implementation of productivity"
+    ],
+    "correta": "c",
+    "resposta": ""
+  },
+  {
+    "id": 10,
+    "pergunta": "The Delivery Lead (DL) has a number of levers used to improve CCI forecast. Which of these levers is not a revenue lever?",
+    "respostas": [
+      "Actively Manage Solution Contingency",
+      "Maximize Billable Time",
+      "Rate Card Optimization",
+      "Upsell/Cross Sell"
+    ],
+    "correta": "a",
+    "resposta": ""
+  },
+  {
+    "id": 11,
+    "pergunta": "In what way is solution contingency actively managed throughout the delivery life cycle?",
+    "respostas": [
+      "reviewing risks and adjusting the forecast",
+      "understanding the underlying assumptions",
+      "validating the current project performance",
+      "optimizing service cost"
+    ],
+    "correta": "a",
+    "resposta": ""
+  },
+  {
+    "id": 12,
+    "pergunta": "A client brings innovative ideas and presents them fluently. They actively listen and are empathic to Accenture's views. Which approach should the Delivery Lead (DL) focus on while dealing with a client with the above traits?",
+    "respostas": [
+      "Highlight details and rigor of approach.",
+      "Highlight key outcomes.",
+      "Establish emotional or social connection.",
+      "Create an atmosphere of collaboration."
+    ],
+    "correta": "b",
+    "resposta": ""
+  },
+  {
+    "id": 13,
+    "pergunta": "A project Delivery Lead (DL) intends to avoid surprising the leadership with negative metrics, such as a delay in project completion. Which best practices will help the DL in this scenario? (Choose two.)",
+    "respostas": [
+      "Notify team members about negative metrics and take accountability.",
+      "Communicate engagement results despite project delays to the leadership.",
+      "Escalate to leadership when the status of the engagement is likely to change.",
+      "Report the engagement status in the MyWizard Governance."
+    ],
+    "correta": "a,c",
+    "resposta": ""
+  },
+  {
+    "id": 14,
+    "pergunta": "Which best practices should a Delivery Lead (DL) implement to effectively manage client expectations? (Choose two.)",
+    "respostas": [
+      "Identify deviations from client expectations, and remind them what is feasible.",
+      "Assess and document client expectations through targeted interviews.",
+      "Refer to sample contracts to implement changes in client expectations.",
+      "Maintain assignments, and mobilize contract extensions."
+    ],
+    "correta": "a,b",
+    "resposta": ""
+  },
+  {
+    "id": 15,
+    "pergunta": "Which contractual challenges can result from Agile delivery? (Choose two.)",
+    "respostas": [
+      "increased difficulty in protecting client data resulting in high risks and liabilities",
+      "difficulty in creating baselined solution contingency plan to handle risks",
+      "difficulty to agree on a set of objectives due to flexible contractual requirements",
+      "difficulty in defining deliverables due to significant flexibility in the input requirements"
+    ],
+    "correta": "a,b",
+    "resposta": ""
+  },
+  {
+    "id": 16,
+    "pergunta": "Which terms under the Limits of Liability and Proprietary (LLP) rights clause should a Delivery Lead (DL) avoid in an initial contract? (Choose two.)",
+    "respostas": [
+      "Bear loss of ownership of the pre-existing Internet Protocol (IP) in the client's work product before the full and final payment per the contract.",
+      "Loss due to termination for convenience will be borne by the client.",
+      "Interest will accrue on delayed invoice payments.",
+      "Own responsibility for any indirect damages that are not brought to the notice within two years after the cause of action as stated in the contract."
+    ],
+    "correta": "a,b",
+    "resposta": ""
+  },
+  {
+    "id": 17,
+    "pergunta": "The satisfaction survey process enables you to proactively understand and react to customer and user satisfaction levels. Match each survey type based on survey respondent to its description.",
+    "respostas": [
+      "Client - conducted with key buyers",
+      "Customer - conducted with C-level exe",
+      "User - conducted with end users c",
+      "Event-driven - conducted after a key even"
+    ],
+    "correta": "a,b,c,d",
+    "resposta": ""
+  },
+  {
+    "id": 18,
+    "pergunta": "Accenture's software development team has a $250k solution contingency. This amount includes costs allocated to expired risks on completed start up activities. A new risk has been identified that results in a change in client expectations. However, no solution contingency has been set aside for this. Which approach should the team follow in this scenario?",
+    "respostas": [
+      "Process a negative EAC change.",
+      "Transfer the amount of unused solution contingency from expired risk to new risk.",
+      "Allocate additional contingency required to new unexpected risks.",
+      "Release the unused solution contingency amount for new risk."
+    ],
+    "correta": "c",
+    "resposta": ""
+  },
+  {
+    "id": 19,
+    "pergunta": "What is the cost to serve incurred by Accenture for a project with below mentioned details? • labor cost = $500 million • subcontractor cost = $150 million • non-labor cost = $100 million • negotiation cost = $50 million • effort percentage = 80%",
+    "respostas": [
+      "$800 million",
+      "$640 million",
+      "$750 million",
+      "$600 million"
+    ],
+    "correta": "b",
+    "resposta": ""
+  },
+  {
+    "id": 20,
+    "pergunta": "The System Integration (SI) team at Accenture is facing challenges with an existing client. The challenges include the delay of several months and huge cost overruns. The delivery date was non-negotiable as the clients had to follow the date mandated by their government. Which actions should the Delivery Leads (DLs) take to avoid the above scenario in future? (Choose three.)",
+    "respostas": [
+      "Set realistic targets.",
+      "Identify potential risks, and establish a mitigation plan.",
+      "Review the workplan periodically.",
+      "Increase the size of the team."
+    ],
+    "correta": "a,b,e",
+    "resposta": ""
+  },
+  {
+    "id": 21,
+    "pergunta": "The Schedule Performance Index (SPI) shows how the work is progressing compared to the original schedule. Its target value is 1.00. If SPl is less than 1.00, the project is behind schedule, and if SPI is greater than 1.00, the project is ahead of schedule. Which recommended action should be taken when SPI is 1.13 (Choose the best answer.)",
+    "respostas": [
+      "Provide training to the team to increase their overall productivity.",
+      "Agree to take on more scope.",
+      "Evaluate solution contingency release to improve EAC position.",
+      "No action should be taken."
+    ],
+    "correta": "d",
+    "resposta": ""
+  },
+  {
+    "id": 22,
+    "pergunta": "While testing a solution for a client, the Accenture team detects defects and reworks the solution to meet the requirements. Which measure/metric will help the delivery team determine the quality of their delivery?",
+    "respostas": [
+      "Testing Effectiveness (TE)",
+      "Cost performance Index (CPI)",
+      "Schedule Performance Index (SPI)",
+      "Defect Rate (DR)"
+    ],
+    "correta": "d",
+    "resposta": ""
+  },
+  {
+    "id": 23,
+    "pergunta": "Which statement is true about risk management? (Choose two.)",
+    "respostas": [
+      "It helps Accenture's growth and competitiveness in the marketplace and drives client satisfaction and profitability.",
+      "It identifies, manages, and mitigates risk by ensuring alignment across client expectations.",
+      "it overestimates solution contingency to protect profitability and balances Accenture's pricing in the market.",
+      "It acts as a voluntary, deliberate, and legally binding agreement between two or more competent parties."
+    ],
+    "correta": "a,b",
+    "resposta": ""
+  },
+  {
+    "id": 24,
+    "pergunta": "Match each contract item to its respective function.",
+    "respostas": [
+      "Letter of Intent (LOI) - serves as a framework for r",
+      "Interim Agreement - serves as a temporary agre",
+      "Independent Statement of Work (SOW) - works as a standalone cont",
+      "Master Service Agreement (MSA) - establishes a legal framework"
+    ],
+    "correta": "a,b,c,d",
+    "resposta": ""
+  },
+  {
+    "id": 25,
+    "pergunta": "A System Integration (SI) Architect is planning to represent the flow of the data between the applications/systems involved in the integration solution. Which element in the flow diagram will help to plan and execute integration testing across the different interfaces?",
+    "respostas": [
+      "business objects",
+      "system interface descriptions",
+      "data flow diagram",
+      "system interface diagram"
+    ],
+    "correta": "b",
+    "resposta": ""
+  },
+  {
+    "id": 26,
+    "pergunta": "Which factors can lead to re-estimation in a project? (Choose two.)",
+    "respostas": [
+      "Requirements were changed without proper change control.",
+      "Target dates were changed by Subject Matter Experts (SMEs).",
+      "Original estimate was based on unclear requirements.",
+      "Ongoing periodic review and monitoring of requirements were conducted."
+    ],
+    "correta": "a,c",
+    "resposta": ""
+  },
+  {
+    "id": 27,
+    "pergunta": "Match each role involved in the defect management process to the activities performed by them.",
+    "respostas": [
+      "Tester - identify and log defects up v",
+      "Team Lead/ Project Manager - review defects for complete",
+      "Test Lead - work with team lead to reviv",
+      "Quality Manager - review defects for complete"
+    ],
+    "correta": "a,b,c,d",
+    "resposta": ""
+  },
+  {
+    "id": 28,
+    "pergunta": "Match each Agile metric to its purpose.",
+    "respostas": [
+      "Agile Release Backlog Volatility (ARBV) - used to improve release planning and estimation during the Sprint 0 (release planning stage).",
+      "Release Slippage Risk Indicator (RSRI) - used to provide an indication of whether an Agile team is on plan and will be able to complete all the remaining user stories by the end of all Sprints.",
+      "Story Point Effort Performance Indicator (SPEPI) - used to help an Agile team to confirm how well they are delivering part or more scope than planned.",
+      "Release Burnchart Performance Indicator (RBPI) - used to determine if an ongoing Agile project release is on schedule.",
+      "Process Adherence (PA) - used to measures process effectiveness as an early identifier of potential delivery risks or issues.",
+      "Running Tested Features Release (RTFR) - used to incrementally build a product, and keep the product built to date in a state of high quality."
+    ],
+    "correta": "ARBV,cRSRI,SPEPI,RBPI,PA,RTFR",
+    "resposta": ""
+  },
+  {
+    "id": 29,
+    "pergunta": "Which best practices should be followed while estimating an engagement? (Choose two.)",
+    "respostas": [
+      "Create estimates early in the project before the needs analysis.",
+      "Use Accenture Delivery Method (ADM) estimators to estimate.",
+      "Create estimates, validate assumptions, and revise estimates.",
+      "Rely upon estimates provided by the client Subject Matter Experts (SMEs)."
+    ],
+    "correta": "b,c",
+    "resposta": ""
+  },
+  {
+    "id": 30,
+    "pergunta": "Which activity is valuable to be executed as part of initiation in Agile projects? (Choose best answer.)",
+    "respostas": [
+      "Define high level requirements and create blueprints for each area of the solution.",
+      "Create a detailed roadmap for all the scope for each sprint.",
+      "Execute the 1st sprint.",
+      "Execute all agile ceremonies."
+    ],
+    "correta": "a",
+    "resposta": ""
+  },
+  {
+    "id": 31,
+    "pergunta": "A Delivery Lead (DL) is working with the Architecture team to design, build, and test an application. Which actions should a DL consider to ensure a smooth build phase for the application (Choose two.)",
+    "respostas": [
+      "Ensure the build team knows and adheres to the configuration management process.",
+      "Implement project automation blueprint.",
+      "Use any public centralized code repository to build, maintain, and share code.",
+      "Plan capability development activities."
+    ],
+    "correta": "a,d",
+    "resposta": ""
+  },
+  {
+    "id": 32,
+    "pergunta": "An application development has reached its final stage and needs to complete the review and confirm the build deliverables with the Test team before obtaining stakeholder sign-off. Which key activities should be performed as part of the Correct and Clarify phase before obtaining stakeholder sign-off? (Choose two.)",
+    "respostas": [
+      "Ensure all comments, issues, and open points are resolved.",
+      "Identify benefits of developing an application prototype.",
+      "Ensure build and affected previous stage deliverables are updated.",
+      "Create a logical development architecture diagram."
+    ],
+    "correta": "a,c",
+    "resposta": ""
+  },
+  {
+    "id": 33,
+    "pergunta": "Which activities help ensure that a good workplan is created? (Choose two.)",
+    "respostas": [
+      "Establish the work planning and tracking processes.",
+      "Structure the workplan effectively using Work Based Structure (WBS).",
+      "Create a Gantt or network chart depicting risks in the workplan.",
+      "Use budget tracking tools prior to workplan setup."
+    ],
+    "correta": "a,b",
+    "resposta": ""
+  },
+  {
+    "id": 34,
+    "pergunta": "Which activity should the Delivery Lead (DL) ensure is completed as part of the Prepare Testing Discipline? (Choose the best answer.)",
+    "respostas": [
+      "Prepare test scripts and data for all phases of testing.",
+      "Update the data model for all data items for testing.",
+      "Complete UAT Test Plan and test preparation activities.",
+      "Confirm each of the fields to be displayed in the user interface maps to the common object model."
+    ],
+    "correta": "c",
+    "resposta": ""
+  },
+  {
+    "id": 35,
+    "pergunta": "Which practices will help Delivery Leads (DLs) ensure effective scope management? (Choose two.)",
+    "respostas": [
+      "Allow changes and check for risks at the end of the project.",
+      "Focus on project details and retain contingency.",
+      "Identify and monitor triggers that may lead to scope creep.",
+      "Adhere to timelines and track communications monitoring scope changes."
+    ],
+    "correta": "c,d",
+    "resposta": ""
+  },
+  {
+    "id": 36,
+    "pergunta": "Matt from Vectorz e-comm solutions approaches Accenture to modify the content on their website. Accenture has completed 50% of the updates to the website when Matt approaches Ellen, the Project Manager at Accenture, with a request to add more animated pages and content. Which factors should Ellen consider regarding the implementation of the requested changes? (Choose three.)",
+    "respostas": [
+      "client relationship",
+      "financial impact",
+      "employee engagement",
+      "overall risks",
+      "delivery schedule"
+    ],
+    "correta": "a,b,e",
+    "resposta": ""
+  },
+  {
+    "id": 37,
+    "pergunta": "Which actions help Delivery Leads (DLs) manage scope effectively? (Choose two.)",
+    "respostas": [
+      "accepting changes in scope based on priority without a scope change process",
+      "documenting assumptions and reinforcing project scope during program planning",
+      "ensuring scope includes only functional considerations of the project",
+      "discussing the impact of scope change on timelines and effort with clients"
+    ],
+    "correta": "b,d",
+    "resposta": ""
+  },
+  {
+    "id": 38,
+    "pergunta": "Match each Agile role to its description.",
+    "respostas": [
+      "Scrum - Iterative and incremental agile software development framework",
+      "Sprint - Basic unit of development in Scrum",
+      "Release Backlog - Subset of product requirements that will be delivered in a given release",
+      "The Burn-down chart - Expresses the work left versus time left."
+    ],
+    "correta": "a,b,c,d",
+    "resposta": ""
+  },
+  {
+    "id": 39,
+    "pergunta": "Which methodology is more appropriate for a project that has below characteristics? 1. responsive to changes 2. includes regular updates 3. delivered as per timelines",
+    "respostas": [
+      "FORM",
+      "Agile",
+      "Accenture Delivery Methodology (ADM)",
+      "Waterfall"
+    ],
+    "correta": "b",
+    "resposta": ""
+  },
+  {
+    "id": 40,
+    "pergunta": "The roles, responsibilities, and decision processes of the Board of Directors and senior management shape the vision, culture, goals, and plans for action. What is the role of a Sponsor in the governance model? (Choose two.)",
+    "respostas": [
+      "allocates appropriate resources and maintains enterprise direction",
+      "champions the new business through vision, culture, attitudes, and skills",
+      "monitors and manages risks and issues, and escalates them as needed",
+      "confirms client expectations and shares them with the delivery team"
+    ],
+    "correta": "a,b",
+    "resposta": ""
+  },
+  {
+    "id": 41,
+    "pergunta": "In which ways should a Delivery Lead be involved in the solution planning effort in a System Integration project? (Choose two.)",
+    "respostas": [
+      "manage resource and capacity plan",
+      "coordinate with sales team to ensure efforts are aligned",
+      "balance scope, quality, effort, schedule, budget, and risk during the planning phase",
+      "identify skills matrix"
+    ],
+    "correta": "a,c",
+    "resposta": ""
+  },
+  {
+    "id": 42,
+    "pergunta": "Match each phase of the System Integration (SI) solution plan to its respective description.",
+    "respostas": [
+      "Solution Overview - High-level summary of the",
+      "Opportunity and Client Background - High-level summary of the",
+      "Solution Scope - High-level description of se",
+      "Program Management - Outlines assumptions that"
+    ],
+    "correta": "a,b,c,d",
+    "resposta": ""
+  },
+  {
+    "id": 43,
+    "pergunta": "Which statements are true about the System Integration (Sl) start-up program? (Choose two.) (SI Start-Up Overview – pág 7)",
+    "respostas": [
+      "It tracks key actions to create a separate team which packages and hands over the program to delivery lead.",
+      "It empowers delivery teams to maximize quality delivery by deploying standard project and program management fundamentals.",
+      "It incurs additional costs to derive all activities from Accenture Delivery Methodology (ADM) and its estimator.",
+      "It helps to jump-start a new SI project leveraging technology delivery enablement global assets."
+    ],
+    "correta": "a,b",
+    "resposta": ""
+  },
+  {
+    "id": 44,
+    "pergunta": "An Accenture client comes up with a major scope change in one of their projects. This needs to go through a Change Request Process (CRP). What is the correct sequence of steps to be followed? 1. Raise request for a change. 2. Check for impact assessment and its funding. 3. Complete a full impact access across all teams. 4. Approve the impact assessment. 5. Approve the change in the formal change request review board",
+    "respostas": [
+      "4,3,2,5,1",
+      "1,2,3,4,5",
+      "3,5,4,2,1",
+      "2,3,1,5,4"
+    ],
+    "correta": "b",
+    "resposta": ""
+  }
+]
