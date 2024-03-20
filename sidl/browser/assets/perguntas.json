@@ -1,0 +1,19 @@
+[{
+    "id": 1,
+    "pergunta": "What is the maximum time that scrum recommends the team spend in the daily scrum?",
+    "respostas": [
+      "Fifteen minutes", "Thirty minutes", "One hour", "Four hours", "As long as it takes"
+    ],
+    "correta": "Fifteen minutes",
+    "resposta": ""
+  },
+  {
+    "id": 2,
+    "pergunta": "Which statement is an incorrect assessment of the product owner?",
+    "respostas": [
+      "The product owner plays a dual role: product owner and scrum master", "The product owner is the only person responsible for the product backlog", "The product owner prioritizes the product backlog", "The product owner is one person and not a committee"
+    ],
+    "correta": "The product owner plays a dual role: product owner and scrum master",
+    "resposta": ""
+  }
+]
