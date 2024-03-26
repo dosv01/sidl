@@ -18,8 +18,8 @@
     <div class="col-md-10">
       <label for="qtdQuestoesControlSelect">Qtd Questões: </label>
 
-      <select class="form-control" id="questoes" name="questoesName"
-        (change)="onChange($event.target)" style="width:auto;">
+      <select class="form-control" id="questoes" name="questoesName" (change)="onChange($event.target)"
+        style="width:auto;">
         <option value="" disabled selected>Choose a Qtd</option>
         <option *ngFor="let q of qtds" [ngValue]="q">{{ q }}</option>
       </select>
@@ -36,30 +36,42 @@
       <div class="col-md-10">
         <div class="card mb-3" *ngFor="let pergunta of perguntas; let i = index">
           <div class="card-header"
-            [ngClass]="{'rightAnswer': (finalizado == true && pergunta.resposta === pergunta.correta), 'wrongAnswer': (finalizado == true && pergunta.resposta !== pergunta.correta)  }">
+            [ngClass]="{'rightAnswer': (finalizado == true && pergunta.acertou == true), 'wrongAnswer': (finalizado == true && pergunta.acertou == false)  }">
             <h4>Question {{i+1}} of {{quantidadePerguntas}}</h4>
           </div>
           <div class="card-body">
             <div style="white-space: pre-wrap">
-              <h6>{{pergunta.pergunta}}</h6>
+              <h6>ID {{pergunta.id+1}} - {{pergunta.pergunta}}</h6>
               <hr style="border-top: dotted 1px  #ccc;">
             </div>
-            <div class="input-group" *ngFor="let resposta of pergunta.respostas">
-              <div class="form-check">
 
-                <input type="radio" name="{{pergunta.id}}" id="{{pergunta.id}}" value="{{resposta}}"
-                  [(ngModel)]="pergunta.resposta" (change)="changeFinalizado()" class="form-check-input">
+            <div class="input-group" *ngFor="let alternativa of pergunta.alternativas">
+              <div class="form-check" *ngIf="pergunta.tipoPergunta === 'singleAnswer'; else multipleAnswerInput">
+
+                <input type="radio" name="{{pergunta.id}}" id="{{alternativa.id}}" [value]="alternativa.id"
+                  [(ngModel)]="alternativa.selecionou" (change)="changeFinalizado()" class="form-check-input">
 
                 <label class="form-check-label" for="respostaRadios">
-                  &nbsp;{{resposta}}
+                  &nbsp;({{alternativa.id}}) {{alternativa.alternativa}}
                 </label>
               </div>
+
+              <ng-template #multipleAnswerInput>
+                <div class="form-check">
+                  <input type="checkbox" name="{{pergunta.id}}" id="{{alternativa.id}}" [value]="alternativa.id"
+                    [(ngModel)]="alternativa.selecionou" (change)="changeFinalizado()" class="form-check-input">
+
+                  <label class="form-check-label" for="respostaRadios">
+                    &nbsp;({{alternativa.id}}) {{alternativa.alternativa}}
+                  </label>
+                </div>
+              </ng-template>
             </div>
 
           </div>
           <div class="card-footer" *ngIf="finalizado">
             <div><strong> Right answer:</strong> <br>
-              {{pergunta.correta}}
+              {{pergunta.respostaCorreta}}
             </div>
           </div>
         </div>

@@ -34,23 +34,19 @@ export class AppComponent implements OnInit {
 
   constructor(private http: HttpClient) {
     this.listaPerguntas();
-    // this.quantidadePerguntas = this.totalPerguntas;
+    this.quantidadePerguntas = this.totalPerguntas;
     this.prepareComboQtdPerguntas()
   }
-  prepareComboQtdPerguntas() {
-    this.qtds = []
-    if (this.totalPerguntas > 10)
-      this.qtds.push('10')
-    if (this.totalPerguntas > 20)
-      this.qtds.push('20')
-    if (this.totalPerguntas > 30)
-      this.qtds.push('30')
-    if (this.totalPerguntas > 40)
-      this.qtds.push('40')
-    if (this.totalPerguntas > 50)
-      this.qtds.push('50')
 
-    this.qtds.push(this.totalPerguntas.toString())
+  prepareComboQtdPerguntas() {
+    this.qtds = [];
+    const valores = [10, 20, 30, 40, 50, 60, 70];
+    for (const valor of valores) {
+      if (this.totalPerguntas > valor) {
+        this.qtds.push(valor.toString());
+      }
+    }
+    this.qtds.push(this.totalPerguntas.toString());
   }
 
   public getJSON(): Observable<any> {
@@ -67,11 +63,28 @@ export class AppComponent implements OnInit {
         this.quantidadePerguntas = qtd;
       }
       this.perguntas = this.shuffle(data).slice(0, this.quantidadePerguntas);
-      this.perguntas.forEach((pergunta: { respostas: any; }) => {
-        pergunta.respostas = this.shuffle(pergunta.respostas);
-      });
+      // this.perguntas.forEach((pergunta: { alternativas: any; }) => {
+      //   pergunta.alternativas = this.shuffle(pergunta.alternativas);
+      // });
     });
   }
+
+  // public sortMethod(originalArray: any[]) {
+
+  //   let sortedArray = originalArray.sort((n1, n2) => {
+  //     if (n1 > n2) {
+  //       return 1;
+  //     }
+
+  //     if (n1 < n2) {
+  //       return -1;
+  //     }
+
+  //     return 0;
+  //   });
+
+  //   return sortedArray;
+  // }
 
   onChange(qtdPerguntas: any) {
     if (qtdPerguntas.text === 'All') {
@@ -84,10 +97,25 @@ export class AppComponent implements OnInit {
   public calcularRespostas() {
     let score = 0;
     this.scoreFinal = 0;
-    this.perguntas.forEach((pergunta: { resposta: any; correta: any; }) => {
-      if (pergunta.resposta == pergunta.correta) {
+    let resposta = '';
+    this.perguntas.forEach((pergunta: any) => {
+      resposta = '';
+      pergunta.alternativas.forEach((alternativa: any) => {
+        if (pergunta.tipoPergunta == "singleAnswer") {
+          resposta += alternativa.selecionou;
+        } else {
+          if (alternativa.selecionou)
+            resposta += alternativa.id;
+        }
+      });
+
+      if (pergunta.respostaCorreta.replace(",", "") == resposta) {
+        pergunta.acertou = true;
         score++;
       }
+      // if (pergunta.respostaUsuario == pergunta.respostaCorreta) {
+      //   score++;
+      // }
     });
 
     if (score != 0) {
@@ -138,6 +166,7 @@ export class AppComponent implements OnInit {
 
   clean() {
     this.finalizado = false;
+    this.listaPerguntas();
   }
 
 }
