@@ -138,8 +138,11 @@ export class AppComponent implements OnInit {
   }
 
   limpaRespostas() {
-    this.perguntas.forEach((pergunta: { correta: string; }) => {
+    this.perguntas.forEach((pergunta: { correta: string; alternativas: any[]; }) => {
       pergunta.correta == '';
+      pergunta.alternativas.forEach(alternativa => {
+        alternativa.selecionou = '';
+      });
     });
     this.finalizado = false;
     this.scoreFinal = 0;
@@ -166,7 +169,6 @@ export class AppComponent implements OnInit {
 
   clean() {
     this.finalizado = false;
-    this.listaPerguntas();
+    this.limpaRespostas();
   }
-
 }

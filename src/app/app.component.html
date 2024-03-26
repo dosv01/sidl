@@ -35,8 +35,8 @@
     <div class="row justify-content-center">
       <div class="col-md-10">
         <div class="card mb-3" *ngFor="let pergunta of perguntas; let i = index">
-          <div class="card-header"
-            [ngClass]="{'rightAnswer': (finalizado == true && pergunta.acertou == true), 'wrongAnswer': (finalizado == true && pergunta.acertou == false)  }">
+          <div class="card-header" [ngClass]="{'rightAnswer': (finalizado == true && pergunta.acertou == true), 'wrongAnswer': (finalizado == true && pergunta.acertou == false),
+              'noAnswer': (finalizado == false )  }">
             <h4>Question {{i+1}} of {{quantidadePerguntas}}</h4>
           </div>
           <div class="card-body">
@@ -85,7 +85,7 @@
     <div class="row justify-content-center">
       <div class="col-md-10 mb-5">
         <button class="btn btn-info float-right" type="submit">Finalize Assess</button>
-        <button class="btn btn-light float-right mr-2" type="reset" onclick="clean()">Clean</button>
+        <button class="btn btn-light float-right mr-2" type="submit" onclick="clean()">Clean</button>
       </div>
     </div>
   </form>
