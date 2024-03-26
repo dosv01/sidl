@@ -38,16 +38,33 @@ export class AppComponent implements OnInit {
     this.prepareComboQtdPerguntas()
   }
 
+  // prepareComboQtdPerguntas() {
+  //   this.qtds = [];
+  //   const valores = [10, 20, 30, 40, 50, 60, 70];
+  //   for (const valor of valores) {
+  //     if (this.totalPerguntas > valor) {
+  //       this.qtds.push(valor.toString());
+  //     }
+  //   }
+  //   this.qtds.push(this.totalPerguntas.toString());
+  // }
+
   prepareComboQtdPerguntas() {
-    this.qtds = [];
-    const valores = [10, 20, 30, 40, 50, 60, 70];
-    for (const valor of valores) {
-      if (this.totalPerguntas > valor) {
-        this.qtds.push(valor.toString());
-      }
+    this.qtds = []
+    if (this.totalPerguntas > 10) {
+      this.qtds.push('10')
+    } else if (this.totalPerguntas > 20) {
+      this.qtds.push('20')
+    } else if (this.totalPerguntas > 30) {
+      this.qtds.push('30')
+    } else if (this.totalPerguntas > 40) {
+      this.qtds.push('40')
+    } else if (this.totalPerguntas > 50) {
+      this.qtds.push('50')
     }
-    this.qtds.push(this.totalPerguntas.toString());
+    this.qtds.push(this.totalPerguntas.toString())
   }
+
 
   public getJSON(): Observable<any> {
     return this.http.get(this._jsonURL);
