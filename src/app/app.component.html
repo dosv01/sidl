@@ -71,7 +71,7 @@
           </div>
           <!-- *ngIf="finalizado" -->
           <div class="card-footer" *ngIf="finalizado">
-            <div><strong> Right answer:</strong> <br>
+            <div><strong> Right answer: </strong> <br>
               {{pergunta.respostaCorreta}}
             </div>
           </div>
@@ -85,8 +85,8 @@
     </div>
     <div class="row justify-content-center">
       <div class="col-md-10 mb-5">
-        <button class="btn btn-info float-right" type="submit">Finalize Assess</button>
-        <button class="btn btn-light float-right mr-2" type="reset" (click)="clean()">Clean</button>
+        <button class="btn btn-info float-right" type="submit">Terminar</button>
+        <button class="btn btn-light float-right mr-2" type="reset" (click)="clean()">Limpar</button>
       </div>
     </div>
   </form>
@@ -98,11 +98,11 @@
 </div>
 <div class="divResult">
   <div class="card">
-    <div class="card-header">Summary</div>
+    <div class="card-header">Resumo</div>
     <div class="card-body">
       Total: {{quantidadePerguntas}}
       <div *ngIf="finalizado">
-        Score: {{this.scoreFinal}}%.
+        Pontuação: {{this.scoreFinal}}%.
       </div>
       <div *ngIf="finalizado">
         <h4>Resultado: {{this.status}}</h4>
