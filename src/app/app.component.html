@@ -48,8 +48,8 @@
             <div class="input-group" *ngFor="let alternativa of pergunta.alternativas">
               <div class="form-check" *ngIf="pergunta.tipoPergunta === 'singleAnswer'; else multipleAnswerInput">
 
-                <input type="radio" name="{{pergunta.id}}" id="{{alternativa.id}}" [value]="alternativa.id"
-                  [(ngModel)]="alternativa.selecionou" (change)="changeFinalizado()" class="form-check-input">
+                <input type="radio" name="{{pergunta.id}}" [value]="alternativa.id" [(ngModel)]="alternativa.selecionou"
+                  (change)="changeFinalizado(pergunta, alternativa.id)" class="form-check-input">
 
                 <label class="form-check-label" for="respostaRadios">
                   &nbsp;({{alternativa.id}}) {{alternativa.alternativa}}
@@ -58,8 +58,8 @@
 
               <ng-template #multipleAnswerInput>
                 <div class="form-check">
-                  <input type="checkbox" name="{{pergunta.id}}" id="{{alternativa.id}}" [value]="alternativa.id"
-                    [(ngModel)]="alternativa.selecionou" (change)="changeFinalizado()" class="form-check-input">
+                  <input type="checkbox" name="{{pergunta.id}}" [(ngModel)]="alternativa.selecionou" [value]="alternativa.id"
+                    (change)="changeFinalizado(pergunta, alternativa.id)" class="form-check-input">
 
                   <label class="form-check-label" for="respostaRadios">
                     &nbsp;({{alternativa.id}}) {{alternativa.alternativa}}
@@ -69,9 +69,17 @@
             </div>
 
           </div>
-          <div class="card-footer" *ngIf="finalizado">
+          <!-- *ngIf="finalizado" -->
+          <div class="card-footer">
             <div><strong> Right answer:</strong> <br>
               {{pergunta.respostaCorreta}}
+              <br>
+              Selecionou: <br>
+              {{pergunta.alternativas[0].id}} - {{pergunta.alternativas[0].selecionou}}<br>
+              {{pergunta.alternativas[1].id}} - {{pergunta.alternativas[1].selecionou}}<br>
+              {{pergunta.alternativas[2].id}} - {{pergunta.alternativas[2].selecionou}}<br>
+              {{pergunta.alternativas[3].id}} - {{pergunta.alternativas[3].selecionou}}<br>
+
             </div>
           </div>
         </div>
@@ -85,7 +93,7 @@
     <div class="row justify-content-center">
       <div class="col-md-10 mb-5">
         <button class="btn btn-info float-right" type="submit">Finalize Assess</button>
-        <button class="btn btn-light float-right mr-2" type="submit" onclick="clean()">Clean</button>
+        <button class="btn btn-light float-right mr-2" type="reset" (click)="clean()">Clean</button>
       </div>
     </div>
   </form>

@@ -1,0 +1,65 @@
+[
+  {
+    "id": 0,
+    "pergunta": "The Delivery Lead should expect to receive the following from the Opportunity Team: (Risk,Solution_Contingency.pdf – pag.13)",
+    "tipoPergunta": "singleAnswer",
+    "alternativas": [
+      {
+        "id": "a",
+        "alternativa": "A high quality risk assessment",
+        "selecionou": ""
+      },
+      {
+        "id": "b",
+        "alternativa": "For each High/Above Normal risk, a mitigation plan with ownership (by named individuals)",
+        "selecionou": ""
+      },
+      {
+        "id": "c",
+        "alternativa": "Solution Contingency assigned for risks that cannot be mitigated prior to contracting",
+        "selecionou": ""
+      },
+      {
+        "id": "d",
+        "alternativa": "All of the above",
+        "selecionou": ""
+      },
+      {
+        "id": "e",
+        "alternativa": "None of the above",
+        "selecionou": ""
+      }
+    ],
+    "respostaCorreta": "d",
+    "acertou": ""
+  },
+  {
+    "id": 2,
+    "pergunta": "An Accenture technology Delivery Lead (DL) plans to implement OPERA productivity improvement levers as part of a contract to boost productivity of client's software development unit. Which key scope selection considerations should the DL study? (Choose two.)",
+    "tipoPergunta": "multipleAnswer",
+    "alternativas": [
+      {
+        "id": "a",
+        "alternativa": "processes that are independent of client approval",
+        "selecionou": ""
+      },
+      {
+        "id": "b",
+        "alternativa": "processes that are deemed tougher to update",
+        "selecionou": ""
+      },
+      {
+        "id": "c",
+        "alternativa": "processes that use margin friendly resources",
+        "selecionou": ""
+      },
+      {
+        "id": "d",
+        "alternativa": "processes in which the team spends most of their effort",
+        "selecionou": ""
+      }
+    ],
+    "respostaCorreta": "b,d",
+    "acertou": ""
+  }
+]
