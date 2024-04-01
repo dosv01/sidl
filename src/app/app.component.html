@@ -70,7 +70,7 @@
 
           </div>
           <!-- *ngIf="finalizado" -->
-          <div class="card-footer">
+          <div class="card-footer" *ngIf="finalizado">
             <div><strong> Right answer:</strong> <br>
               {{pergunta.respostaCorreta}}
               <br>
