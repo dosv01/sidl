@@ -93,7 +93,7 @@
   },
   {
     "id": 3,
-    "pergunta": "Match each OPERA Lever to its description.",
+    "pergunta": "Match each OPERA Lever to its description. Todas corretas, para treinamento apenas.",
     "tipoPergunta": "multipleAnswer",
     "alternativas": [
       {
@@ -1229,7 +1229,7 @@
   },
   {
     "id": 43,
-    "pergunta": "Which best practices should a Delivery Lead (DL) implement to deal with a client who exhibits the below personality traits? (Choose two.)",
+    "pergunta": "Which best practices should a Delivery Lead (DL) implement to deal with a client who exhibits the below personality traits? (Choose two.) - demonstrates understanding / - is compliant with what is asked / - recognizes and mitigates risks / - is transparent / - is method and process-oriented / - is rigorous and accurate / - is demonstrative",
     "tipoPergunta": "multipleAnswer",
     "alternativas": [
       {
@@ -1258,7 +1258,7 @@
   },
   {
     "id": 44,
-    "pergunta": "The tasks below are executed as part of the Accenture Client Data Protection (CDP) program. Which of the above mentioned task is the accountability of a Delivery Lead (DL)?",
+    "pergunta": "The tasks below are executed as part of the Accenture Client Data Protection (CDP) program. Which of the above mentioned task is the accountability of a Delivery Lead (DL)? 1. Take executive accountability of the operational effectiveness of the CDP plan. 2. Maintain an effective CDP plan and coordinate CDP related activities. 3. Complete CDP risk assessment and review CDP guidance note 4. Work with the Account Information Security Lead to add new contracts and identify scope of services.",
     "tipoPergunta": "singleAnswer",
     "alternativas": [
       {
@@ -1432,7 +1432,7 @@
   },
   {
     "id": 49,
-    "pergunta": "Match each phase of the System Integration (SI) solution plan to its respective description. Por favor validar se Resposta Correta e dar feedback.",
+    "pergunta": "Match each phase of the System Integration (SI) solution plan to its respective description. Todas corretas, para treinamento apenas.",
     "tipoPergunta": "multipleAnswer",
     "alternativas": [
       {
@@ -1519,7 +1519,7 @@
   },
   {
     "id": 52,
-    "pergunta": "Match each role involved in the defect management process to the activities performed by them. Resposta ainda nao identificada. Favor dar feedback.",
+    "pergunta": "Match each role involved in the defect management process to the activities performed by them. Todas corretas para treinamento apenas.",
     "tipoPergunta": "multipleAnswer",
     "alternativas": [
       {
