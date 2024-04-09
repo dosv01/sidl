@@ -585,35 +585,6 @@
     "acertou": ""
   },
   {
-    "id": 19,
-    "pergunta": "A System Integration (SI) Architect is planning to represent the flow of the data between the applications/systems involved in the integration solution. Which element in the flow diagram will help to plan and execute integration testing across the different interfaces?",
-    "tipoPergunta": "singleAnswer",
-    "alternativas": [
-      {
-        "id": "a",
-        "alternativa": "business objects",
-        "selecionou": ""
-      },
-      {
-        "id": "b",
-        "alternativa": "system interface descriptions",
-        "selecionou": ""
-      },
-      {
-        "id": "c",
-        "alternativa": "data flow diagram",
-        "selecionou": ""
-      },
-      {
-        "id": "d",
-        "alternativa": "system interface diagram",
-        "selecionou": ""
-      }
-    ],
-    "respostaCorreta": "b",
-    "acertou": ""
-  },
-  {
     "id": 20,
     "pergunta": "Which factors can lead to re-estimation in a project? (Choose two.)",
     "tipoPergunta": "multipleAnswer",
@@ -639,7 +610,7 @@
         "selecionou": ""
       }
     ],
-    "respostaCorreta": "a,b",
+    "respostaCorreta": "a,c",
     "acertou": ""
   },
   {
@@ -871,7 +842,7 @@
         "selecionou": ""
       }
     ],
-    "respostaCorreta": "b,c",
+    "respostaCorreta": "c,d",
     "acertou": ""
   },
   {
@@ -997,7 +968,7 @@
   },
   {
     "id": 33,
-    "pergunta": "Which statements are true about the System Integration (Sl) start-up program? (Choose two.)",
+    "pergunta": "Which statements are true about the System Integration (Sl) start-up program? (Choose two.). (SI Start-Up Overview – pág 7)",
     "tipoPergunta": "multipleAnswer",
     "alternativas": [
       {
@@ -1026,7 +997,7 @@
   },
   {
     "id": 34,
-    "pergunta": "An Accenture client comes up with a major scope change in one of their projects. This needs to go through a Change Request Process (CRP). What is the correct sequence of steps to be followed?",
+    "pergunta": "An Accenture client comes up with a major scope change in one of their projects. This needs to go through a Change Request Process (CRP). What is the correct sequence of steps to be followed?<br/>1. Raise request for a change.<br/>2. Check for impact assessment and its funding.<br/>3. Complete a full impact access across all teams.<br/>4. Approve the impact assessment.<br/>5. Approve the change in the formal change request review board",
     "tipoPergunta": "singleAnswer",
     "alternativas": [
       {
@@ -1137,7 +1108,7 @@
         "selecionou": ""
       }
     ],
-    "respostaCorreta": "b",
+    "respostaCorreta": "d",
     "acertou": ""
   },
   {
@@ -1403,31 +1374,302 @@
   },
   {
     "id": 48,
-    "pergunta": "Which primary consideration should a Delivery Lead (DL) consider when approving an OPERA initiative?",
-    "tipoPergunta": "singleAnswer",
+    "pergunta": "The roles, responsibilities, and decision processes of the Board of Directors and senior management shape the vision, culture, goals, and plans for action. What is the role of a Sponsor in the governance model? (Choose two). Por favor validar se Resposta Correta e dar feedback.",
+    "tipoPergunta": "multipleAnswer",
     "alternativas": [
       {
         "id": "a",
-        "alternativa": "deployment of commitment declaration",
+        "alternativa": "allocates appropriate resources and maintains enterprise direction",
         "selecionou": ""
       },
       {
         "id": "b",
-        "alternativa": "planning and implementation on multiple project",
+        "alternativa": "champions the new business through vision, culture, attitudes, and skills",
         "selecionou": ""
       },
       {
         "id": "c",
-        "alternativa": "estimation and evaluation of the Return on Investment (ROI)",
+        "alternativa": "monitors and manages risks and issues, and escalates them as needed",
         "selecionou": ""
       },
       {
         "id": "d",
-        "alternativa": "identification and implementation of productivity",
+        "alternativa": "confirms client expectations and shares them with the delivery team",
         "selecionou": ""
       }
     ],
-    "respostaCorreta": "c",
+    "respostaCorreta": "a,b",
+    "acertou": ""
+  },
+  {
+    "id": 49,
+    "pergunta": "In which ways should a Delivery Lead be involved in the solution planning effort in a System Integration project? (Choose two). Por favor validar se Resposta Correta e dar feedback.",
+    "tipoPergunta": "multipleAnswer",
+    "alternativas": [
+      {
+        "id": "a",
+        "alternativa": "manage resource and capacity plan",
+        "selecionou": ""
+      },
+      {
+        "id": "b",
+        "alternativa": "coordinate with sales team to ensure efforts are aligned",
+        "selecionou": ""
+      },
+      {
+        "id": "c",
+        "alternativa": "balance scope, quality, effort, schedule, budget, and risk during the planning phase",
+        "selecionou": ""
+      },
+      {
+        "id": "d",
+        "alternativa": "identify skills matrix",
+        "selecionou": ""
+      }
+    ],
+    "respostaCorreta": "b,c",
+    "acertou": ""
+  },
+  {
+    "id": 49,
+    "pergunta": "Match each phase of the System Integration (SI) solution plan to its respective description. Por favor validar se Resposta Correta e dar feedback.",
+    "tipoPergunta": "multipleAnswer",
+    "alternativas": [
+      {
+        "id": "a",
+        "alternativa": "Solution Overview - High-level summary of the",
+        "selecionou": ""
+      },
+      {
+        "id": "b",
+        "alternativa": "Opportunity and Client Background - High-level summary of the",
+        "selecionou": ""
+      },
+      {
+        "id": "c",
+        "alternativa": "Solution Scope - High-level description of se",
+        "selecionou": ""
+      },
+      {
+        "id": "d",
+        "alternativa": "Program Management - Outlines assumptions that",
+        "selecionou": ""
+      }
+    ],
+    "respostaCorreta": "a,b,c,d",
+    "acertou": ""
+  },
+  {
+    "id": 50,
+    "pergunta": "Match each Agile role to its description. Todas corretas, para treinamento apenas.",
+    "tipoPergunta": "multipleAnswer",
+    "alternativas": [
+      {
+        "id": "a",
+        "alternativa": "Scrum - Iterative and incremental agile software development framework",
+        "selecionou": ""
+      },
+      {
+        "id": "b",
+        "alternativa": "Sprint - Basic unit of development in Scrum",
+        "selecionou": ""
+      },
+      {
+        "id": "c",
+        "alternativa": "Release Backlog - Subset of product requirements that will be delivered in a given release",
+        "selecionou": ""
+      },
+      {
+        "id": "d",
+        "alternativa": "The Burn-down chart - Expresses the work left versus time left.",
+        "selecionou": ""
+      }
+    ],
+    "respostaCorreta": "a,b,c,d",
+    "acertou": ""
+  },
+  {
+    "id": 51,
+    "pergunta": "An application development has reached its final stage and needs to complete the review and confirm the build deliverables with the Test team before obtaining stakeholder sign-off. Which key activities should be performed as part of the Correct and Clarify phase before obtaining stakeholder sign-off? (Choose two.)",
+    "tipoPergunta": "multipleAnswer",
+    "alternativas": [
+      {
+        "id": "a",
+        "alternativa": "Ensure all comments, issues, and open points are resolved.",
+        "selecionou": ""
+      },
+      {
+        "id": "b",
+        "alternativa": "Identify benefits of developing an application prototype.",
+        "selecionou": ""
+      },
+      {
+        "id": "c",
+        "alternativa": "Ensure build and affected previous stage deliverables are updated.",
+        "selecionou": ""
+      },
+      {
+        "id": "d",
+        "alternativa": "Create a logical development architecture diagram.",
+        "selecionou": ""
+      }
+    ],
+    "respostaCorreta": "a,c",
+    "acertou": ""
+  },
+  {
+    "id": 52,
+    "pergunta": "Match each role involved in the defect management process to the activities performed by them. Resposta ainda nao identificada. Favor dar feedback.",
+    "tipoPergunta": "multipleAnswer",
+    "alternativas": [
+      {
+        "id": "a",
+        "alternativa": "Tester - identify and log defects up v",
+        "selecionou": ""
+      },
+      {
+        "id": "b",
+        "alternativa": "Team Lead/ Project Manager - review defects for complete",
+        "selecionou": ""
+      },
+      {
+        "id": "c",
+        "alternativa": "Test Lead - work with team lead to reviv",
+        "selecionou": ""
+      },
+      {
+        "id": "d",
+        "alternativa": "Quality Manager - review defects for complete",
+        "selecionou": ""
+      }
+    ],
+    "respostaCorreta": "a,b,c,d",
+    "acertou": ""
+  },
+  {
+    "id": 53,
+    "pergunta": "Match each Agile metric to its purpose. Todas corretas para treinamento apenas.",
+    "tipoPergunta": "multipleAnswer",
+    "alternativas": [
+      {
+        "id": "a",
+        "alternativa": "Agile Release Backlog Volatility (ARBV) - used to improve release planning and estimation during the Sprint 0 (release planning stage).",
+        "selecionou": ""
+      },
+      {
+        "id": "b",
+        "alternativa": "Release Slippage Risk Indicator (RSRI) - used to provide an indication of whether an Agile team is on plan and will be able to complete all the remaining user stories by the end of all Sprints. ",
+        "selecionou": ""
+      },
+      {
+        "id": "c",
+        "alternativa": "Story Point Effort Performance Indicator (SPEPI) - used to help an Agile team to confirm how well they are delivering part or more scope than planned.",
+        "selecionou": ""
+      },
+      {
+        "id": "d",
+        "alternativa": "Release Burnchart Performance Indicator (RBPI) - used to determine if an ongoing Agile project release is on schedule.",
+        "selecionou": ""
+      },
+      {
+        "id": "e",
+        "alternativa": "Process Adherence (PA) - used to measures process effectiveness as an early identifier of potential delivery risks or issues.",
+        "selecionou": ""
+      },
+      {
+        "id": "f",
+        "alternativa": "Running Tested Features Release (RTFR) - used to incrementally build a product, and keep the product built to date in a state of high quality.",
+        "selecionou": ""
+      }
+    ],
+    "respostaCorreta": "a,b,c,d,e,f",
+    "acertou": ""
+  },
+  {
+    "id": 54,
+    "pergunta": "Match each contract item to its respective function. Todas corretas para treinamento apenas.",
+    "tipoPergunta": "multipleAnswer",
+    "alternativas": [
+      {
+        "id": "a",
+        "alternativa": "Letter of Intent (LOI) - serves as a framework for r ",
+        "selecionou": ""
+      },
+      {
+        "id": "b",
+        "alternativa": "Interim Agreement - serves as a temporary agre",
+        "selecionou": ""
+      },
+      {
+        "id": "c",
+        "alternativa": "Independent Statement of Work (SOW) - works as a standalone cont",
+        "selecionou": ""
+      },
+      {
+        "id": "d",
+        "alternativa": "Master Service Agreement (MSA) - establishes a legal framew",
+        "selecionou": ""
+      }
+    ],
+    "respostaCorreta": "a,b,c,d",
+    "acertou": ""
+  },
+  {
+    "id": 55,
+    "pergunta": "Which contractual challenges can result from Agile delivery? (Choose two.)",
+    "tipoPergunta": "multipleAnswer",
+    "alternativas": [
+      {
+        "id": "a",
+        "alternativa": "increased difficulty in protecting client data resulting in high risks and liabilities",
+        "selecionou": ""
+      },
+      {
+        "id": "b",
+        "alternativa": "difficulty in creating baselined solution contingency plan to handle risks",
+        "selecionou": ""
+      },
+      {
+        "id": "c",
+        "alternativa": "difficulty to agree on a set of objectives due to flexible contractual requirements",
+        "selecionou": ""
+      },
+      {
+        "id": "d",
+        "alternativa": "difficulty in defining deliverables due to significant flexibility in the input requirements",
+        "selecionou": ""
+      }
+    ],
+    "respostaCorreta": "c,d",
+    "acertou": ""
+  },
+  {
+    "id": 56,
+    "pergunta": "Which terms under the Limits of Liability and Proprietary (LLP) rights clause should a Delivery Lead (DL) avoid in an initial contract? (Choose two.)",
+    "tipoPergunta": "multipleAnswer",
+    "alternativas": [
+      {
+        "id": "a",
+        "alternativa": "Bear loss of ownership of the pre-existing Internet Protocol (IP) in the client's work product before the full and final payment per the contract.",
+        "selecionou": ""
+      },
+      {
+        "id": "b",
+        "alternativa": "Loss due to termination for convenience will be borne by the client.",
+        "selecionou": ""
+      },
+      {
+        "id": "c",
+        "alternativa": "Interest will accrue on delayed invoice payments.",
+        "selecionou": ""
+      },
+      {
+        "id": "d",
+        "alternativa": "Own responsibility for any indirect damages that are not brought to the notice within two years after the cause of action as stated in the contract",
+        "selecionou": ""
+      }
+    ],
+    "respostaCorreta": "a,d",
     "acertou": ""
   }
 ]
