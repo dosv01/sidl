@@ -1316,7 +1316,7 @@
   },
   {
     "id": 46,
-    "pergunta": "Which key controls should a Delivery Lead (DL) ensure in the plan and execute phase to comply with application development requirements?",
+    "pergunta": "Which key controls should a Delivery Lead (DL) ensure in the plan and execute phase to comply with application development requirements? 1. Maintain application inventory that complies with the general and language specific Client Data Protection (CDP) checklists. 2. Reduce implementation timeline risks and potential security vulnerabilities before an application is moved to production. 3. Request Application Assessment team to perform application security scan for client facing teams well in advance of moving code to production. 4. Understand how engagement financials are inline within the clients' budget or business case to manage the delivery budget.",
     "tipoPergunta": "singleAnswer",
     "alternativas": [
       {
