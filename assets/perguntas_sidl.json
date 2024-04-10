@@ -64,7 +64,7 @@
   },
   {
     "id": 2,
-    "pergunta": "An Accenture technology Delivery Lead (DL) plans to implement OPERA productivity improvement levers as part of a contract to boost productivity of client's software development unit. Which key scope selection considerations should the DL study? (Choose two.)",
+    "pergunta": "An Accenture technology Delivery Lead (DL) plans to implement OPERA productivity improvement levers as part of a contract to boost productivity of client's software development unit.\nWhich key scope selection considerations should the DL study? (Choose two.)",
     "tipoPergunta": "multipleAnswer",
     "alternativas": [
       {
@@ -122,7 +122,7 @@
   },
   {
     "id": 4,
-    "pergunta": "Use the scenario below to answer the following questions: The Delivery Lead identifies a new sales opportunity with the client. She decides to use the unused solution contingency (SC) from the current contract effort to pay for the new business development (BD) work instead of writing it up to CI at the end of the month. Do you agree with her decision? (Risk,Solution_Contingency.pdf – pag.11)",
+    "pergunta": "Use the scenario below to answer the following questions: The Delivery Lead identifies a new sales opportunity with the client. \nShe decides to use the unused solution contingency (SC) from the current contract effort to pay for the new business development (BD) work instead of writing it up to CI at the end of the month. \nDo you agree with her decision? (Risk,Solution_Contingency.pdf – pag.11)",
     "tipoPergunta": "singleAnswer",
     "alternativas": [
       {
@@ -219,7 +219,7 @@
   },
   {
     "id": 7,
-    "pergunta": "An Accenture technology Delivery Lead (DL) plans to implement OPERA productivity improvement levers as part of a contract to boost productivity of client's software development unit. Which key scope selection considerations should the DL study? (Choose two.)",
+    "pergunta": "An Accenture technology Delivery Lead (DL) plans to implement OPERA productivity improvement levers as part of a contract to boost productivity of client's software development unit. \nWhich key scope selection considerations should the DL study? (Choose two.)",
     "tipoPergunta": "multipleAnswer",
     "alternativas": [
       {
@@ -248,7 +248,7 @@
   },
   {
     "id": 8,
-    "pergunta": "Use the scenario below to answer the following questions: The Delivery Lead identifies a new sales opportunity with the client. She decides to use the unused solution contingency (SC) from the current contract effort to pay for the new business development (BD) work instead of writing it up to CI at the end of the month. Do you agree with her decision?",
+    "pergunta": "Use the scenario below to answer the following questions: The Delivery Lead identifies a new sales opportunity with the client. \nShe decides to use the unused solution contingency (SC) from the current contract effort to pay for the new business development (BD) work instead of writing it up to CI at the end of the month. \nDo you agree with her decision?",
     "tipoPergunta": "singleAnswer",
     "alternativas": [
       {
@@ -315,7 +315,7 @@
   },
   {
     "id": 10,
-    "pergunta": "Accenture is required to deliver productivity improvements as part of a client's process automation contract. Which is the first step to identify automation opportunities?",
+    "pergunta": "Accenture is required to deliver productivity improvements as part of a client's process automation contract. \nWhich is the first step to identify automation opportunities?",
     "tipoPergunta": "singleAnswer",
     "alternativas": [
       {
@@ -344,7 +344,7 @@
   },
   {
     "id": 11,
-    "pergunta": "An Accenture technology Delivery Lead (DL) plans to implement OPERA productivity improvement levers as part of a contract to boost productivity of client's software development unit. Which key scope selection considerations should the DL study?",
+    "pergunta": "An Accenture technology Delivery Lead (DL) plans to implement OPERA productivity improvement levers as part of a contract to boost productivity of client's software development unit. \nWhich key scope selection considerations should the DL study?",
     "tipoPergunta": "multipleAnswer",
     "alternativas": [
       {
@@ -373,7 +373,7 @@
   },
   {
     "id": 12,
-    "pergunta": "Use the scenario below to answer the following questions: The Delivery Lead identifies a new sales opportunity with the client. She decides to use the unused solution contingency (SC) from the current contract effort to pay for the new business development (BD) work instead of writing it up to CI at the end of the month. Do you agree with her decision?",
+    "pergunta": "Use the scenario below to answer the following questions: The Delivery Lead identifies a new sales opportunity with the client. \nShe decides to use the unused solution contingency (SC) from the current contract effort to pay for the new business development (BD) work instead of writing it up to CI at the end of the month. \nDo you agree with her decision?",
     "tipoPergunta": "singleAnswer",
     "alternativas": [
       {
@@ -436,7 +436,7 @@
   },
   {
     "id": 14,
-    "pergunta": "The System Integration (SI) team at Accenture is facing challenges with an existing client. The challenges include the delay of several months and huge cost overruns. The delivery date was non-negotiable as the clients had to follow the date mandated by their government. Which actions should the Delivery Leads (DLs) take to avoid the above scenario in future?",
+    "pergunta": "The System Integration (SI) team at Accenture is facing challenges with an existing client. \nThe challenges include the delay of several months and huge cost overruns. The delivery date was non-negotiable as the clients had to follow the date mandated by their government. \nWhich actions should the Delivery Leads (DLs) take to avoid the above scenario in future?",
     "tipoPergunta": "multipleAnswer",
     "alternativas": [
       {
@@ -470,7 +470,7 @@
   },
   {
     "id": 15,
-    "pergunta": "The Schedule Performance Index (SPI) shows how the work is progressing compared to the original schedule. Its target value is 1.00. If SPI is less than 1.00, the project is behind schedule, and if SPI is greater than 1.00, the project is ahead of schedule. Which recommended action should be taken when SPI is 1.13?",
+    "pergunta": "The Schedule Performance Index (SPI) shows how the work is progressing compared to the original schedule. \nIts target value is 1.00. If SPI is less than 1.00, the project is behind schedule, and if SPI is greater than 1.00, the project is ahead of schedule. \nWhich recommended action should be taken when SPI is 1.13?",
     "tipoPergunta": "singleAnswer",
     "alternativas": [
       {
@@ -499,7 +499,7 @@
   },
   {
     "id": 16,
-    "pergunta": "While testing a solution for a client, the Accenture team detects defects and reworks the solution to meet the requirements. Which measure/metric will help the delivery team determine the quality of their delivery?",
+    "pergunta": "While testing a solution for a client, the Accenture team detects defects and reworks the solution to meet the requirements. \nWhich measure/metric will help the delivery team determine the quality of their delivery?",
     "tipoPergunta": "singleAnswer",
     "alternativas": [
       {
@@ -702,7 +702,7 @@
   },
   {
     "id": 24,
-    "pergunta": "A System Integration (SI) Architect is planning to represent the flow of the data between the applications/systems involved in the integration solution. Which element in the flow diagram will help to plan and execute integration testing across the different interfaces?",
+    "pergunta": "A System Integration (SI) Architect is planning to represent the flow of the data between the applications/systems involved in the integration solution. \nWhich element in the flow diagram will help to plan and execute integration testing across the different interfaces?",
     "tipoPergunta": "singleAnswer",
     "alternativas": [
       {
@@ -789,7 +789,7 @@
   },
   {
     "id": 27,
-    "pergunta": "A Delivery Lead (DL) is working with the Architecture team to design, build, and test an application. Which actions should a DL consider to ensure a smooth build phase for the application (Choose two.)",
+    "pergunta": "A Delivery Lead (DL) is working with the Architecture team to design, build, and test an application. \nWhich actions should a DL consider to ensure a smooth build phase for the application (Choose two.)",
     "tipoPergunta": "multipleAnswer",
     "alternativas": [
       {
@@ -847,7 +847,7 @@
   },
   {
     "id": 29,
-    "pergunta": "Matt from Vectorz e-comm solutions approaches Accenture to modify the content on their website. Accenture has completed 50% of the updates to the website when Matt approaches Ellen, the Project Manager at Accenture, with a request to add more animated pages and content. Which factors should Ellen consider regarding the implementation of the requested changes? (Choose three.)",
+    "pergunta": "Matt from Vectorz e-comm solutions approaches Accenture to modify the content on their website. \nAccenture has completed 50% of the updates to the website when Matt approaches Ellen, the Project Manager at Accenture, with a request to add more animated pages and content. \nWhich factors should Ellen consider regarding the implementation of the requested changes? (Choose three.)",
     "tipoPergunta": "multipleAnswer",
     "alternativas": [
       {
@@ -997,7 +997,7 @@
   },
   {
     "id": 34,
-    "pergunta": "An Accenture client comes up with a major scope change in one of their projects. This needs to go through a Change Request Process (CRP). What is the correct sequence of steps to be followed?<br/>1. Raise request for a change.<br/>2. Check for impact assessment and its funding.<br/>3. Complete a full impact access across all teams.<br/>4. Approve the impact assessment.<br/>5. Approve the change in the formal change request review board",
+    "pergunta": "An Accenture client comes up with a major scope change in one of their projects. This needs to go through a Change Request Process (CRP). What is the correct sequence of steps to be followed?\n1. Raise request for a change.\n2. Check for impact assessment and its funding.\n3. Complete a full impact access across all teams.\n4. Approve the impact assessment.\n5. Approve the change in the formal change request review board",
     "tipoPergunta": "singleAnswer",
     "alternativas": [
       {
@@ -1113,7 +1113,7 @@
   },
   {
     "id": 38,
-    "pergunta": "The roles, responsibilities, and decision processes of the Board of Directors and senior management shape the vision, culture, goals, and plans for action. What is the role of a Sponsor in the governance model? (Choose two.)",
+    "pergunta": "The roles, responsibilities, and decision processes of the Board of Directors and senior management shape the vision, culture, goals, and plans for action. \nWhat is the role of a Sponsor in the governance model? (Choose two.)",
     "tipoPergunta": "multipleAnswer",
     "alternativas": [
       {
@@ -1229,7 +1229,7 @@
   },
   {
     "id": 43,
-    "pergunta": "Which best practices should a Delivery Lead (DL) implement to deal with a client who exhibits the below personality traits? (Choose two.) - demonstrates understanding / - is compliant with what is asked / - recognizes and mitigates risks / - is transparent / - is method and process-oriented / - is rigorous and accurate / - is demonstrative",
+    "pergunta": "Which best practices should a Delivery Lead (DL) implement to deal with a client who exhibits the below personality traits? (Choose two.) \n demonstrates understanding / \n is compliant with what is asked / \n recognizes and mitigates risks / \n is transparent / \n is method and process-oriented / \n is rigorous and accurate / \n is demonstrative",
     "tipoPergunta": "multipleAnswer",
     "alternativas": [
       {
@@ -1258,7 +1258,7 @@
   },
   {
     "id": 44,
-    "pergunta": "The tasks below are executed as part of the Accenture Client Data Protection (CDP) program. Which of the above mentioned task is the accountability of a Delivery Lead (DL)? 1. Take executive accountability of the operational effectiveness of the CDP plan. 2. Maintain an effective CDP plan and coordinate CDP related activities. 3. Complete CDP risk assessment and review CDP guidance note 4. Work with the Account Information Security Lead to add new contracts and identify scope of services.",
+    "pergunta": "The tasks below are executed as part of the Accenture Client Data Protection (CDP) program. \nWhich of the above mentioned task is the accountability of a Delivery Lead (DL)? \n1. Take executive accountability of the operational effectiveness of the CDP plan. \n2. Maintain an effective CDP plan and coordinate CDP related activities. \n3. Complete CDP risk assessment and review CDP guidance note \n4. Work with the Account Information Security Lead to add new contracts and identify scope of services.",
     "tipoPergunta": "singleAnswer",
     "alternativas": [
       {
@@ -1374,7 +1374,7 @@
   },
   {
     "id": 48,
-    "pergunta": "The roles, responsibilities, and decision processes of the Board of Directors and senior management shape the vision, culture, goals, and plans for action. What is the role of a Sponsor in the governance model? (Choose two). Por favor validar se Resposta Correta e dar feedback.",
+    "pergunta": "The roles, responsibilities, and decision processes of the Board of Directors and senior management shape the vision, culture, goals, and plans for action. \nWhat is the role of a Sponsor in the governance model? (Choose two). \nPor favor validar se Resposta Correta e dar feedback.",
     "tipoPergunta": "multipleAnswer",
     "alternativas": [
       {
@@ -1490,7 +1490,7 @@
   },
   {
     "id": 51,
-    "pergunta": "An application development has reached its final stage and needs to complete the review and confirm the build deliverables with the Test team before obtaining stakeholder sign-off. Which key activities should be performed as part of the Correct and Clarify phase before obtaining stakeholder sign-off? (Choose two.)",
+    "pergunta": "An application development has reached its final stage and needs to complete the review and confirm the build deliverables with the Test team before obtaining stakeholder sign-off. \nWhich key activities should be performed as part of the Correct and Clarify phase before obtaining stakeholder sign-off? (Choose two.)",
     "tipoPergunta": "multipleAnswer",
     "alternativas": [
       {
