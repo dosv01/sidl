@@ -122,7 +122,7 @@
   },
   {
     "id": 4,
-    "pergunta": "Use the scenario below to answer the following questions: The Delivery Lead identifies a new sales opportunity with the client. \nShe decides to use the unused solution contingency (SC) from the current contract effort to pay for the new business development (BD) work instead of writing it up to CI at the end of the month. \nDo you agree with her decision? (Risk,Solution_Contingency.pdf – pag.11)",
+    "pergunta": "Use the scenario below to answer the following questions: \n\nThe Delivery Lead identifies a new sales opportunity with the client. She decides to use the unused solution contingency (SC) from the current contract effort to pay for the new business development (BD) work instead of writing it up to CI at the end of the month. \nDo you agree with her decision? (Risk,Solution_Contingency.pdf – pag.11)",
     "tipoPergunta": "singleAnswer",
     "alternativas": [
       {
@@ -186,35 +186,6 @@
       }
     ],
     "respostaCorreta": "d",
-    "acertou": ""
-  },
-  {
-    "id": 6,
-    "pergunta": "Accenture is required to deliver productivity improvements as part of a client's process automation contract. Which is the first step to identify automation opportunities?",
-    "tipoPergunta": "singleAnswer",
-    "alternativas": [
-      {
-        "id": "a",
-        "alternativa": "Standardize the delivery life-cycle.",
-        "selecionou": ""
-      },
-      {
-        "id": "b",
-        "alternativa": "Analyze effort distribution to identify highly defined manual repetitive activities.",
-        "selecionou": ""
-      },
-      {
-        "id": "c",
-        "alternativa": "Measure automation maturity.",
-        "selecionou": ""
-      },
-      {
-        "id": "d",
-        "alternativa": "Leverage historical experience and data.",
-        "selecionou": ""
-      }
-    ],
-    "respostaCorreta": "b",
     "acertou": ""
   },
   {
@@ -311,35 +282,6 @@
       }
     ],
     "respostaCorreta": "d",
-    "acertou": ""
-  },
-  {
-    "id": 10,
-    "pergunta": "Accenture is required to deliver productivity improvements as part of a client's process automation contract. \nWhich is the first step to identify automation opportunities?",
-    "tipoPergunta": "singleAnswer",
-    "alternativas": [
-      {
-        "id": "a",
-        "alternativa": "Standardize the delivery life-cycle.",
-        "selecionou": ""
-      },
-      {
-        "id": "b",
-        "alternativa": "Analyze effort distribution to identify highly defined manual repetitive activities.",
-        "selecionou": ""
-      },
-      {
-        "id": "c",
-        "alternativa": "Measure automation maturity.",
-        "selecionou": ""
-      },
-      {
-        "id": "d",
-        "alternativa": "Leverage historical experience and data.",
-        "selecionou": ""
-      }
-    ],
-    "respostaCorreta": "b",
     "acertou": ""
   },
   {
@@ -906,35 +848,6 @@
       }
     ],
     "respostaCorreta": "b,d",
-    "acertou": ""
-  },
-  {
-    "id": 31,
-    "pergunta": "In which ways should a Delivery Lead be involved in the solution planning effort in a System Integration project? (Choose two.)",
-    "tipoPergunta": "multipleAnswer",
-    "alternativas": [
-      {
-        "id": "a",
-        "alternativa": "manage resource and capacity plan",
-        "selecionou": ""
-      },
-      {
-        "id": "b",
-        "alternativa": "coordinate with sales team to ensure efforts are aligned",
-        "selecionou": ""
-      },
-      {
-        "id": "c",
-        "alternativa": "balance scope, quality, effort, schedule, budget, and risk during the planning phase",
-        "selecionou": ""
-      },
-      {
-        "id": "d",
-        "alternativa": "identify skills matrix",
-        "selecionou": ""
-      }
-    ],
-    "respostaCorreta": "a,c",
     "acertou": ""
   },
   {
