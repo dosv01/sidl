@@ -102,13 +102,13 @@
         "selecionou": ""
       }
     ],
-    "respostaCorreta": "a,b",
+    "respostaCorreta": "c,d",
     "acertou": ""
   },
   {
     "id": 5,
     "pergunta": "When formulating a project schedule, what activities contribute to ensuring its effectiveness?",
-    "tipoPergunta": "singleAnswer",
+    "tipoPergunta": "multipleAnswer",
     "alternativas": [
       {
         "id": "a",
@@ -676,11 +676,6 @@
       {
         "id": "d",
         "alternativa": "2,3,1,5,4",
-        "selecionou": ""
-      },
-      {
-        "id": "e",
-        "alternativa": "",
         "selecionou": ""
       }
     ],
@@ -1269,7 +1264,7 @@
   {
     "id": 48,
     "pergunta": "Match each survey type based on survey respondent to its description.",
-    "tipoPergunta": "matching",
+    "tipoPergunta": "multipleAnswer",
     "alternativas": [
       {
         "id": "a",
