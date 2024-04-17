@@ -201,16 +201,6 @@
         "id": "c",
         "alternativa": "Effective risk management involves identifying, assessing, and mitigating potential risks to enhance project success.",
         "selecionou": ""
-      },
-      {
-        "id": "d",
-        "alternativa": "",
-        "selecionou": ""
-      },
-      {
-        "id": "e",
-        "alternativa": "",
-        "selecionou": ""
       }
     ],
     "respostaCorreta": "c",
@@ -1562,11 +1552,6 @@
       {
         "id": "d",
         "alternativa": "Request the Client Data Protection (CDP) Opportunity Support team to review client requirements and compare them with Accenture standards.",
-        "selecionou": ""
-      },
-      {
-        "id": "e",
-        "alternativa": "",
         "selecionou": ""
       }
     ],
